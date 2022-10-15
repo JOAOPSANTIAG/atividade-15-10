@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class UmC {
+
+ private static int soma (int numero){
+
+    for(int i = 1;i <= numero; i++){
+    int fatorial = fatorial * i;
+      return fatorial;}
+       
+                              
+    }
+ 
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numero;
+    int resultado;
+    
+    System.out.println("Escreva o numero: ");
+    numero = entrada.nextInt();
+    
+
+    resultado = soma(numero);
+System.out.println("o fatorial do numero informado  é: " + resultado);
+    
+  
+ 
+  
+}
+}
