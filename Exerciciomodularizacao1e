@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class UmC {
+
+ private static int soma (int numero){
+
+    for(int i = 1;i <= numero; i++){
+    int result = numero2 + i;
+      return result;}
+       
+                              
+    }
+ 
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numero, numero2;
+    int resultado;
+    
+    System.out.println("Escreva o numero inteiro e positivo: ");
+    numero = entrada.nextInt();
+    
+
+    resultado = soma(numero);
+System.out.println("a soma destes numeros sao: " + resultado);
+    
+  
+ 
+  
+}
+}
