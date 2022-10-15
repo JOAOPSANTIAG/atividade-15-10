@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class DoisB {
+
+ private static int soma (int numeroA , int numeroB){
+       int soma = numeroA - numeroB;
+        return soma;
+                              
+    }
+
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numeroA, numeroB;
+    int retorno;
+    
+    System.out.println("este programa calcula dois numeros inteiro");
+    System.out.println("digite o primeiro numero");
+    numeroA = entrada.nextInt();
+    System.out.println("digite o segundo numero");
+    numeroB = entrada.nextInt();
+
+    retorno = soma(numeroA,numeroB);
+
+    
+System.out.println("A diferenca entre os dois numeros é: " + retorno);
+
+  }
+}
