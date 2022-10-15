@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class UmB {
+
+ private static int maior (int numero1, int numero2){
+       int maior = numero1 = numero2;
+        return maior;
+                              
+    }
+
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numero1, numero2;
+    int resultado;
+    
+    System.out.println("Escreva o primeiro numero: ");
+    numero1 = entrada.nextInt();
+
+    System.out.println("Escreva o segunda numero: ");
+    numero2 = entrada.nextInt();
+
+    
+    
+if (numero1>numero2){
+
+   System.out.println("o maior numero é : " + numero1);
+} else{
+
+  System.out.println("o maior numero é : " + numero2);
+}
+    
+  }
+    
+  }
