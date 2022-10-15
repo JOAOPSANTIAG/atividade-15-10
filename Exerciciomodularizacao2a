@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class DoisA {
+
+ private static int soma (int numero1 , int numero2){
+       int soma = numero1 + numero2;
+        return soma;
+                              
+    }
+
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numero1, numero2;
+    int retorno;
+    
+    System.out.println("este programa calcula dois numeros inteiro");
+    System.out.println("digite o primeiro numero");
+    numero1 = entrada.nextInt();
+    System.out.println("digite o segundo numero");
+    numero2 = entrada.nextInt();
+
+    retorno = soma(numero1,numero2);
+System.out.println("a soma dos dois numeros é: " + retorno);
+
+  }
+}
