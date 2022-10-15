@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Main {
+
+ private static int soma (int numero){
+       int dobro = numero * 2;
+        return dobro;
+                              
+    }
+
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numero;
+    int retorno;
+    
+    System.out.println("este programa calcula o dobro de um numero informado e retorna o dobro, digite um numero: ");
+    numero = entrada.nextInt();
+
+    retorno = soma(numero);
+System.out.println("O dobro de " + numero + " é " + retorno);
+    
+  }
+    
+  }
