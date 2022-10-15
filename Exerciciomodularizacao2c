@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class DoisC {
+
+ private static int multiplicacao (int numeroA , int numeroB){
+       int multi = numeroA * numeroB;
+        return multi;
+                              
+    }
+
+
+
+  
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+    
+    int numeroA, numeroB;
+    int retorno;
+    
+    System.out.println("este programa multiplica dois numeros inteiro ");
+    System.out.println("digite o primeiro numero: ");
+    numeroA = entrada.nextInt();
+    System.out.println("digite o segundo numero: ");
+    numeroB = entrada.nextInt();
+
+    retorno = multiplicacao(numeroA,numeroB);
+
+    
+System.out.println("A multiplicacao de A por B é: " + retorno);
+
+  }
+}
